@@ -1,6 +1,6 @@
 # Jupyter Playground
 
-The Jupyter Notebook Playground is a repository created to showcase a variety of experiments in data science and visualization. Using Jupyter notebooks as the primary tool, this repository serves as a platform for sharing knowledge and exploring the vast potential of data science. With a wide range of experiments and demonstrations, the Jupyter Notebook Playground provides an interactive and collaborative environment for users to engage with data science concepts and techniques
+The Jupyter Notebook Playground is a repository created to showcase my personal exploration in a variety of experiments in data science and visualization. 
 
 ## How to Use Jupyter Notebook Playground?
 
@@ -21,9 +21,13 @@ A variety of notebooks integrate in services that require access tokens for auth
 ## Static code analysis
 
 Install tools with
+
 > pip3 install -e '.[lint]'
 
 Run tooling with
+
 > isort --check-only . -v
+
 > black --check --diff . -v
+
 > flake8 . -v
